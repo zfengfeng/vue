@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>行程</title>
+		<link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/fansStore.css">
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	</head>
+	<body class="trip">
+		<div class="fansWrap">
+            <!-- 行程banner图 -->
+            <div class="fansTrip">
+            	<div><img src="img/tripBanner.jpg" alt=""></div>
+            	<div class="tripInfo">
+            		<span class="tripTitle">浙江卫视跨年</span>
+            		<span>12.30</span>
+            		<span class="tripAddress"><i class="iconPosition"><img src="img/tripPosition.png" alt=""></i><i>杭州</i></span>
+            	</div>
+            </div>
+            <div class="fansMain">
+            	<!-- 日期列表 -->
+            	<div class="tripList">
+			    	<div class="fansMain-top">
+				        <ul class="fansData">
+				            <li>2016.09</li>
+			        		<li>2016.10</li>
+			        		<li>2016.11</li>
+			        		<li class="fansLast">2016.12</li>
+				        </ul>
+			        </div>
+			        <ul class="tripContent">
+			            <li>
+			            	<div class="fansTrip-list1">
+			            		<span class="listWord">09.30</span>
+			            		<span class="listBg">
+				            		<i>浙江卫视跨年</i>
+				            		<i class="trip-position2"><img class="position2" src="img/position2.png" alt=""><i>杭州</i></i>
+			            		</span>
+			            	</div>
+			            	<div class="fansTrip-list1">
+			            		<span class="listWord">09.10</span>
+			            		<span class="listBg">
+				            		<i>浙江卫视跨年</i>
+				            		<i class="trip-position2"><img class="position2" src="img/position2.png" alt=""><i>杭州</i></i>
+			            		</span>
+			            	</div>
+			            	<div class="fansTrip-list1">
+			            		<span class="listWord">09.05</span>
+			            		<span class="listBg">
+				            		<i>浙江卫视跨年</i>
+				            		<i class="trip-position2"><img class="position2" src="img/position2.png" alt=""><i>杭州</i></i>
+			            		</span>
+			            	</div>
+			            </li>
+			            <li>
+			           		<div class="fansTrip-list1">
+			            		<span class="listWord">10.25</span>
+			            		<span class="listBg">
+				            		<i>浙江卫视跨年</i>
+				            		<i class="trip-position2"><img class="position2" src="img/position2.png" alt=""><i>杭州</i></i>
+			            		</span>
+			            	</div>
+			            </li>
+			            <li>
+			            	<div class="fansTrip-list1">
+			            		<span class="listWord">11.15</span>
+			            		<span class="listBg">
+				            		<i>浙江卫视跨年</i>
+				            		<i class="trip-position2"><img class="position2" src="img/position2.png" alt=""><i>杭州</i></i>
+			            		</span>
+			            	</div>
+			            </li>
+			            <li>
+			            	<div class="fansTrip-list1">
+			            		<span class="listWord">12.18</span>
+			            		<span class="listBg">
+				            		<i>浙江卫视跨年</i>
+				            		<i class="trip-position2"><img class="position2" src="img/position2.png" alt=""><i>杭州</i></i>
+			            		</span>
+			            	</div>
+			            </li>
+			        </ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+        jQuery(".tripList").slide({
+               titCell:".fansData li",
+               mainCell:".tripContent",
+               trigger:"click",//点击切换事件
+               titOnClassName:"on"
+		});
+	</script>
+</html>

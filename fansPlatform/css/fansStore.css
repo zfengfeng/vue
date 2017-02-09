@@ -1,0 +1,372 @@
+.clearBoth{
+	overflow: hidden;
+	clear: both;
+}
+html,body{
+    width: 100%;
+    color: #333;
+}
+.store{
+	background: #dfdfdf;
+}
+/*商城部分样式*/
+.fansWrap{
+    width: 100%;
+}
+.fansWrap img{width:100%;}
+.fans-RecStore-top{
+	width:100%;
+	position: relative;
+}
+.fans-search{
+	position: absolute;
+	left:22%;
+	top: 5%;
+	width: 56%;
+	height: .45rem;
+	background: #fff;
+	opacity: .7;
+	border-radius: 10px;
+}
+.fans-search-icon{
+    position: absolute;
+    right: 24%;
+    top: 7%;
+    display: inline-block;
+    width: .35rem;
+}
+.fansMain-store1{
+    margin: 0 auto .1rem;
+    background: #fff;
+    padding: 0 .2rem;
+}
+.fans-RecStore-title{
+	height:.69rem;
+	line-height: .69rem;
+	font-size: .24rem;
+	
+}
+.fans-RecStore-title span{
+    width: .06rem;
+    height: .3rem;
+    display: inline-block;
+    background: #e6346b;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.fans-RecStore-title h1{
+	display: inline-block;
+	padding-left: .1rem;
+}
+.fans-RecStore-list{width: 100%;}
+.fans-RecStore-stores{
+	width:30%;
+	display: inline-block;
+}
+.RecommendPic{
+	width:100%;
+}
+.RecommendWord{
+	padding:.2rem 0;
+}
+.RecommendWord span{
+	display: block;
+	font-size: .24rem;
+	line-height: .35rem;
+}
+.originalPrice{
+	font-size: .2rem;
+}
+.fansInfo{
+	width:100%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.centerFands{
+	color:#c20d0d;
+}
+
+/*行程部分样式*/
+.trip{
+	background: #f3f3f3;
+}
+.fansTrip{
+	position: relative;
+}
+.tripInfo{
+	width: 30%;
+    position: absolute;
+    bottom:.6rem;
+    left: 35%;
+    font-size: .26rem;
+    color: #fff;
+    text-align: center;
+}
+.tripTitle{
+	height: .5rem;
+	display: block;
+	font-size: .32rem;
+}
+.tripAddress{
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    margin-left: .2rem;
+}
+.iconPosition{
+	margin: 0 .1rem;
+    display: inline-block;
+    width: .23rem;
+    margin-left: .1rem;
+    vertical-align: middle;
+}
+.fansMain-top{
+	padding: .3rem 0;
+    background: #fff;
+}
+.fansData{
+	height: .3rem;
+    line-height: .3rem;
+    background: #fff;
+    clear: both;
+    overflow: hidden;
+    padding-left: .2rem;
+}
+.fansData li{
+	color: #666;
+    width: 23%;
+    display: block;
+    font-size: .32rem;
+    float: left;
+    margin: 0 .04rem 0 .07rem;
+    border-right: 1px solid #666;
+}
+.fansLast{
+	border-right:0!important;
+}
+.tripContent{
+	font-size: .26rem;
+	margin-top: .38rem;
+}
+.tripContent li{
+	text-align: center;
+}
+.on{
+	color:#a11c17!important;
+}
+.fansTrip-list1{
+	margin-top: .18rem;
+}
+.fansTrip-list1 span{
+	display: inline-block;
+}
+.listBg{
+	width: 4.61rem;
+	background: url(../img/tripListBg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.listBg i{
+	height: .4rem;
+    line-height: .4rem;
+	display: block;
+	color:#fff;
+	text-align: left;
+    padding-left: .5rem;
+}
+.listWord{
+	vertical-align: top;
+}
+.position2{
+	width: .22rem!important;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 .1rem;
+}    
+.trip-position2{
+	padding-bottom: .1rem;
+}
+.trip-position2 i{
+	display: inline-block;
+    vertical-align: middle;
+    padding-left: 0;
+}
+
+/*公益活动部分样式*/
+.fansPubWrapAll{
+	width:100%;
+	background:#fff;
+	margin-bottom: 1px;
+}
+.fansPubWrap,.fansVote{
+	width:95%;
+	margin:0 auto;
+}
+.fansPubbanner{
+	width: 100%;
+	padding:.2rem 0;
+}
+.fansPubbanner img{
+	border-radius: 5px;
+}
+.fansParticipate span{
+	height: .4rem;
+    line-height: .4rem;
+}
+.fansParticipate span:nth-child(1){
+	font-size: .29rem;
+	float: left;
+	color:#333;
+}
+
+.fansParticipate span:nth-child(2){
+	display: inline-block;
+	width: .7rem;
+	background: #a11c17;
+	font-size: .22rem;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	float: right;
+}
+.fansDataTime span{
+	height: .5rem;
+	line-height: .5rem;
+	font-size:.22rem;
+	float: left;
+	color:#808080;
+}
+.fansContent{
+	font-size: .22rem;
+	line-height: .32rem;
+	text-indent: .2rem;
+	text-align: justify;
+	padding-bottom: .25rem;
+}
+
+/*投票活动样式*/
+.fansVote{
+	background: #fff;
+	border-radius: 5px 5px 0px 0px;
+}
+.fansVotebanner{
+	width: 100%;
+	margin-top:.2rem;
+}
+.fansVotebanner img{
+	border-radius: 5px 5px 0px 0px;
+}
+.protagonistVote{
+	float: left;
+	padding:.2rem 0 .2rem .2rem;
+}
+.protagonistVote span{
+	display: block;
+	line-height: .35rem;
+	color: #333;
+}
+.protagonistVote span{
+	font-size:.22rem;
+}
+.protagonistVote span:nth-child(1){
+	font-size:.25rem;
+}
+.protagonistVote span i{
+	color:#a11c17;
+}
+.protagonistImg{
+	width: 15%;
+	float: right;
+	margin: .2rem .5rem .2rem 0;
+}
+/*排行榜样式*/
+.list{
+	background:#f3f3f3;
+}
+.fansListWrap{
+	width: 100%;
+	background: #fff;
+	margin-bottom: 1px;
+}
+.fansListTop{
+	width: 88%;
+	margin:0 auto;
+	padding:.15rem 0;
+}
+.fansListCard{
+	width:100%;
+	background: #fff;
+}
+.fansListCard2{
+	margin-top: .2rem!important;
+}
+.fansListTitle{
+	width:95%;
+	margin:0 auto;
+}
+.mostFans{
+	height: .8rem;
+	line-height: .8rem;
+	margin-bottom: 1px;
+}
+.mostFans span:nth-child(1){
+	font-size: .3rem;
+	float: left;
+}
+.mostFans span:nth-child(2){
+	font-size: .22rem;
+	float: right;
+	color: #a9a9a9;
+}
+.fansListLeft{
+	float: left;
+}
+.fansListLeft span{
+	vertical-align: middle;
+	display: inline-block;
+}
+.fansListRight{
+	float:right;
+}
+.fansListLeft span:nth-child(1){
+	width:.32rem;
+	font-size: .24rem;
+	text-align: center;
+	font-family: arial,sans-serif;
+	font-weight: 600;
+	color: #666;
+}
+.fansListLeft span:nth-child(2){
+	width:.68rem;
+	border-radius: 50%;
+}
+.fansListLeft span:nth-child(3){
+	line-height: .35rem;
+}
+.fansListLeft span i{
+	display: block;
+}
+.fansListLeft span i:nth-child(1){
+	font-size: .24rem;
+}
+.fansListLeft span i:nth-child(2){
+	font-size: .2rem;
+}
+.fansList{
+	padding:.2rem 0;
+	border-top: 1px solid #f3f3f3;
+}
+.fansListInfo{
+	padding-top:.165rem;
+}
+.fansListRight span{
+	display: block;
+	font-size: .22rem;
+	width:.7rem;
+	height: .35rem;
+	line-height: .35rem;
+	text-align: center;
+	border:2px solid #a11c17;
+	border-radius: 5px;
+	margin: .1rem 0;
+}

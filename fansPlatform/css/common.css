@@ -1,0 +1,62 @@
+body, div, p, h1, h2, h3, h4, h5, h6, blockquote,  /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+table,th,td /* table elements 表格元素 */{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{font-family:'Microsoft Yahei',helvetica,arial;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);color: #404040;}
+table{border-collapse:collapse;border-spacing:0;}
+th,td{text-align:center;vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400;}
+fieldset,img{border:0;}
+ul,li{list-style:none;}
+input,button{font-size:100%;font-family: "Microsoft Yahei";}
+a{text-decoration:none;color:#000;outline:none}
+a:hover,a:active,a:visited{text-decoration:none; cursor:pointer;}
+a:focus {outline: none;}
+i{font-style: normal;}
+strong,b{font-weight: normal;}
+*:-moz-placeholder {
+  color: #a5a4a4;
+}
+*:-ms-input-placeholder {
+  color: #a5a4a4;
+}
+*::-webkit-input-placeholder {
+  color: #a5a4a4;
+}
+html{
+  font: 14px/24px Helvetica,Arial,sans-serif !important;/*(14/24指height/line-height;)*/
+}
+img{display:block;}
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+html,body{
+  width: 100%;
+}
+@media screen and (min-width: 320px) {html{font-size:312.5%!important;}}
+@media screen and (min-width: 360px) {html{font-size:351.5625%!important;}}
+@media screen and (min-width: 375px) {html{font-size:366.211%!important;}}
+@media screen and (min-width: 400px) {html{font-size:390.625%!important;}}
+@media screen and (min-width: 440px) {html{font-size:429.6875%!important;}}
+@media screen and (min-width: 480px) {html{font-size:468.75%!important;}}
+@media screen and (min-width: 520px) {html{font-size:507.8125%!important;}}
+@media screen and (min-width: 560px) {html{font-size:546.875%!important;}}
+@media screen and (min-width: 600px) {html{font-size:585.9375%!important;}}
+@media screen and (min-width: 640px) {html{font-size:625%!important;}}
+@media screen and (min-width: 680px) {html{font-size:664.0625%!important;}}
+@media screen and (min-width: 720px) {html{font-size:703.125%!important;}}
+@media screen and (min-width: 750px) {html{font-size:732.422%!important;}}
+@media screen and (min-width: 760px) {html{font-size:742.1875%!important;}}
+@media screen and (min-width: 800px) {html{font-size:781.25%!important;}}
+@media screen and (min-width: 960px) {html{font-size:937.5%!important;}}
+@media screen and (min-width: 1136px) {html{font-size:1109.375%!important;}}
+@media screen and (min-width: 1334px) {html{font-size:1302.734375%!important;}}
+@media screen and (min-width: 1920px) {html{font-size:1875%!important;}}
